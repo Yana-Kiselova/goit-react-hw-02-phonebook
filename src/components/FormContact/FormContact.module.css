@@ -1,0 +1,26 @@
+.form {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+input {
+  margin-bottom: 1rem;
+}
+.label {
+  font-weight: bold;
+}
+.button {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: rgb(33, 187, 97);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  font-size: 14px;
+}

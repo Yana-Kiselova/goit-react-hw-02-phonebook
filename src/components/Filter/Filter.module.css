@@ -1,0 +1,7 @@
+.label {
+  display: flex;
+  font-weight: bold;
+}
+.input {
+  display: flex;
+}
