@@ -18,12 +18,13 @@ export const Contacts = ({ contacts, deleteContactItem }) => {
   );
 };
 Contacts.propTypes = {
-  contacts: PropTypes.arrayOf(
-    PropTypes.objectOf({
-      id: PropTypes.string,
-      name: PropTypes.string,
-      number: PropTypes.string,
-    })
-  ),
+  // contacts: PropTypes
+  //   .arrayOf
+  //   PropTypes.objectOf({
+  //     id: PropTypes.string,
+  //     name: PropTypes.string,
+  //     number: PropTypes.string,
+  //   })
+  //   (),
   deleteContactItem: PropTypes.func,
 };

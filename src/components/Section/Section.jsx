@@ -9,6 +9,6 @@ export const Section = ({ children, title }) => {
   );
 };
 Section.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.object,
   title: PropTypes.string,
 };
